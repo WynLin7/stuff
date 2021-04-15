@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+  
+<html>
+    <head>
+	
+		<style>
+	div.gallery {
+	  margin: 5px;
+	  border: 1px solid #ccc;
+	  float: left;
+	  width: 180px;
+	}
+
+	div.gallery:hover {
+	  border: 1px solid #777;
+	}
+
+	div.gallery img {
+	  width: 100%;
+	  height: auto;
+	}
+
+	div.desc {
+	  padding: 15px;
+	  text-align: center;
+	}
+	</style>
+			<style>
+			body {font-family: Arial, Helvetica, sans-serif;}
+			* {box-sizing: border-box;}
+
+			input[type=text], select, textarea {
+			  width: 100%;
+			  padding: 6px;
+			  border: 1px solid #ccc;
+			  border-radius: 4px;
+			  box-sizing: border-box;
+			  margin-top: 6px;
+			  margin-bottom: 6px;
+			  resize: vertical;
+			}
+
+			input[type=submit] {
+			  background-color: #4CAF50;
+			  color: white;
+			  padding: 12px 14px;
+			  border: none;
+			  border-radius: 4px;
+			  cursor: pointer;
+			}
+
+			input[type=submit]:hover {
+			  background-color: #45a049;
+			}
+
+			.container {
+			  border-radius: 5px;
+			  background-color: #f2f2f2;
+			  padding: 10px;
+			}
+			</style>
+		<title>
+		List of recordings   
+		</title>
+    </head>
+ 
+ 
+</html>
+
+<body lang=EN-US link=blue vlink=purple>
+<br><br>
+
+List of videos. Note this is not a complete list. It's a sampling over a period of 5 or 6 days.<br><br><br><br>
+<div class="gallery">
+  <a target="_blank" href="">
+    <img src="" alt="Cinque Terre" width="150" height="150">
+  </a>
+  <div class="desc">Add a description</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="">
+    <img src="" alt="Forest" width="150" height="150">
+  </a>
+  <div class="desc">Add a description</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="">
+    <img src="" alt="Northern Lights" width="150" height="150">
+  </a>
+  <div class="desc">Add a description</div>
+</div>
+
+
+</div>
+<br><br><br><br>
+
+Would you like to upload some of these video's to your system?<br><br><br><br>
+	<div class="container">
+	<form action="/action_page.php">
+	  <input type="file" id="myFile" name="filename"><br><br>
+	  <input type="submit">
+	</form>
+
+	</div><br><br><br>
+
+Let me know when you are ready for me to contact you: <br>
+
+			<div class="container">
+			  <form action="action_page.php">
+
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea><br>
+
+				<label for="email">Email</label>
+				<input type="text" id="email" name="Email" placeholder="Your email address."><br>
+				<input type="submit" value="Submit">
+
+			  </form>
+			</div>
+
+
+</body>
+
+</html>
